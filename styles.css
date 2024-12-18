@@ -194,15 +194,7 @@ button:hover {
     margin: 5px 0;
     font-weight: bold;
 }
-
-/* Responsive Styles */
-@media screen and (max-width: 600px) {
-    .donate-info {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .return-home-btn {
+.return-home-btn {
     display: block;
     width: 100%;
     max-width: 800px;
@@ -247,3 +239,12 @@ button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     background-color: #c0392b; /* Darker red on hover */
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .donate-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
